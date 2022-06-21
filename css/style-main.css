@@ -444,12 +444,22 @@ body{
     line-height: 1.2;
     font-weight: normal;
     color: #130F49;
+
+
 }
 
 .wrapper{
     max-width: 1060px;
     margin: 0 auto;
+    
 }
+
+.wrapper1{
+    max-width: 1060px;
+    margin: 0 auto;
+    
+}
+
 
 /* Header styles start */
 
@@ -499,14 +509,14 @@ body{
 .intro{
     height: 4600px;
     width: 100%;
+    min-width: 1060px;
     background: url(../img/all-bg.jpg) no-repeat center;
     background-size: cover;
     padding-top: 187px;
 }
 
 .intro__title{
-    max-width: 566px;
-    width: 566px;
+
     height: 256px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -522,7 +532,6 @@ body{
 }
 
 .intro__subtitle{
-    max-width: 600px;
     
     font-family: 'Open Sans';
     font-style: normal;
@@ -563,8 +572,7 @@ body{
 
 
 .intro__pers2title{
-    max-width: 388px;
-    width: 388px;
+
 
     font-family: 'Open Sans';
     font-style: italic;
@@ -585,7 +593,6 @@ body{
 }
 
 .intro__pers2subtitle{
-    max-width: 600px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -608,8 +615,7 @@ body{
 }
 
 .intro__pers3title{
-    max-width: 388px;
-    width: 388px;
+
 
     font-family: 'Open Sans';
     font-style: italic;
@@ -631,7 +637,6 @@ body{
 }
 
 .intro__pers3subtitle{
-    max-width: 600px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -656,8 +661,6 @@ body{
 }
 
 .intro__det1title{
-    max-width: 388px;
-    width: 388px;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -692,8 +695,7 @@ body{
 }
 
 .intro__pers4title{
-    max-width: 388px;
-    width: 388px;
+
 
     font-family: 'Open Sans';
     font-style: italic;
@@ -711,7 +713,6 @@ body{
 }
 
 .intro__pers4subtitle{
-    max-width: 600px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -737,9 +738,7 @@ body{
     margin-bottom: 12%;
 }
 
-.intro__pers5title{
-    max-width: 388px;
-    width: 388px;
+.intro__pers5title{ 
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 400;
