@@ -446,10 +446,71 @@ body{
     color: #130F49;
 }
 
-.wrapper{
+.container{
+    max-width: 1075px;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+/* .wrapper{
     max-width: 1060px;
     margin: 0 auto;
+    
 }
+
+.wrapper1{
+    max-width: 1060px;
+    margin: 0 auto;
+    
+} */
+
+@media (max-width:1075px){
+    .container{
+        max-width: 870px;
+    }
+    .header{
+        width: 80%;
+    }
+    .header__link{
+        font-weight: 550;
+        font-size: 15px;
+        line-height: 65px;
+    }
+
+}
+
+@media (max-width:892px){
+    .container{
+        max-width: 670px;
+    }
+    .header{
+        width: 60%;
+    }
+    .header__link{
+        font-weight: 450;
+        font-size: 10px;
+        line-height: 45px;
+    }
+
+}
+
+@media (max-width:676px){
+    .container{
+        max-width: 650px;
+    }
+    .header{
+        width: 50%;
+    }
+    .header__link{
+        font-weight: 350;
+        font-size: 8px;
+        line-height: 45px;
+    }
+}
+
+/* .wrapper{
+    max-width: 1060px;
+    margin: 0 auto;
+} */
 
 /* Header styles start */
 
@@ -499,14 +560,14 @@ body{
 .intro{
     height: 3500px;
     width: 100%;
+    min-width: 1060px;
     background: url(../img/bg-team.png) no-repeat center;
     background-size: cover;
     padding-top: 1px;
 }
 
 .intro__title{
-    max-width: 666px;
-    width: 666px;
+
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -523,7 +584,7 @@ body{
 }
 
 .intro__subtitle{
-    max-width: 600px;
+
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -563,8 +624,6 @@ body{
 
 
 .intro__pers2title{
-    max-width: 766px;
-    width: 766px;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -582,7 +641,6 @@ body{
 }
 
 .intro__pers2subtitle{
-    max-width: 600px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -622,8 +680,6 @@ body{
 } 
 
 .intro__pers3title{
-    max-width: 766px;
-    width: 766px;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -641,7 +697,7 @@ body{
 }
 
 .intro__pers3subtitle{
-    max-width: 600px;
+
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -681,8 +737,7 @@ body{
 
 /*__________________*/
 .intro__pers4title{
-    max-width: 766px;
-    width: 766px;
+
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -701,7 +756,7 @@ body{
 }
 
 .intro__pers4subtitle{
-    max-width: 600px;
+
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;

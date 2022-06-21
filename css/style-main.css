@@ -447,8 +447,12 @@ body{
 
 
 }
-
-.wrapper{
+.container{
+    max-width: 1075px;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+/* .wrapper{
     max-width: 1060px;
     margin: 0 auto;
     
@@ -458,7 +462,52 @@ body{
     max-width: 1060px;
     margin: 0 auto;
     
+} */
+
+@media (max-width:1075px){
+    .container{
+        max-width: 870px;
+    }
+    .header{
+        width: 80%;
+    }
+    .header__link{
+        font-weight: 550;
+        font-size: 15px;
+        line-height: 65px;
+    }
+
 }
+
+@media (max-width:892px){
+    .container{
+        max-width: 670px;
+    }
+    .header{
+        width: 60%;
+    }
+    .header__link{
+        font-weight: 450;
+        font-size: 10px;
+        line-height: 45px;
+    }
+
+}
+
+@media (max-width:676px){
+    .container{
+        max-width: 650px;
+    }
+    .header{
+        width: 50%;
+    }
+    .header__link{
+        font-weight: 350;
+        font-size: 8px;
+        line-height: 45px;
+    }
+}
+
 
 
 /* Header styles start */
